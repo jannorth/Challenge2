@@ -1,0 +1,18 @@
+* {
+    background-color: #fcfff8;;
+    font-family: 'Playfair Display', serif;
+    color: #163e40;
+}
+#headshot {
+    display: flexbox;
+    height: 400px;
+    width: auto;
+}
+h1 {
+    display: inline;
+    align-content: flex-start;
+}
+li {
+    display: flex;
+    align-items: flex-end;
+}
