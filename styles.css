@@ -1,18 +1,55 @@
 * {
-    background-color: #fcfff8;;
+    color: #e6e0e8;
     font-family: 'Poppins', sans-serif;
-    color: #163e40;
+    background-color: #021313;
 }
+
+body, html {
+    height: 100%;
+  }
+  
+  /* .bg { */
+    /* The image used */
+    /* background-image: url("img_girl.jpg"); */
+  
+    /* Full height */
+    /* height: 100%; */
+  
+    /* Center and scale the image nicely */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+
 #headshot {
-    display: flexbox;
-    height: 400px;
     width: auto;
-}
+    height: 200px;
+    border-radius: 20px;
+    border-style: inset;
+    border-color: #fcfff8;
+ }
+
 h1 {
-    display: inline;
-    align-content: flex-start;
+    font-family: 'Poppins';
+    font-variant: all-petite-caps;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px #63594b;
 }
-li {
-    display: flex;
-    align-items: flex-end;
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    padding: auto;
+}
+
+li a {
+    display: inline-block;
+    float: left;
+    margin: auto;
+    padding: 15px;
+}
+main {
+
 }
