@@ -4,22 +4,16 @@
     background-color: #021313;
 }
 
-body, html {
+/* body, html {
     height: 100%;
-  }
-  
-  /* .bg { */
-    /* The image used */
-    /* background-image: url("img_girl.jpg"); */
-  
-    /* Full height */
-    /* height: 100%; */
-  
-    /* Center and scale the image nicely */
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   } */
+html { 
+    background: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2148&q=80) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 #headshot {
     display: block;
@@ -31,30 +25,10 @@ body, html {
     border-color: #fcfff8;
  }
 
- 
-
-/* 
-h1 {
+/* h1 {
     font-family: 'Poppins';
     font-variant: all-petite-caps;
     font-size: 50px;
     text-shadow: 5px 5px 5px #63594b;
-}
-
-ul {
-    list-style-type: none;
-    display: inline;
-    float: left;
-    margin: 5px;
-    padding: auto;
-}
-
-li a {
-    display: inline;
-    float: left;
-    margin: auto;
-    padding: 15px;
-}
-main {
-
 } */
+
