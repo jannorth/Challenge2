@@ -11,6 +11,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    scroll-behavior: smooth;
 }
 
 #headshot {
@@ -35,6 +36,8 @@ nav, ul {
     list-style: none;
     display: inline-flex;
     align-items: flex-end;
+    padding: 15px;
+    margin: 20px;
 }
 
 main {
