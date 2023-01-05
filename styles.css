@@ -43,6 +43,7 @@ nav, ul {
 main {
     margin: 10px;
     padding: 10px;
+    /* display: table-caption; */
 }
 
 .info {
@@ -57,7 +58,9 @@ main {
 .zoom-img {
     width: 300px;
     height: 300px;
-    overflow: scroll;
+    overflow: hidden;
+    border-style: inset;
+    border-radius: 5px;
 }
 
 .zoom-img img {
@@ -71,3 +74,5 @@ main {
     width: 400px;
     color: #b9b5b3;
 }
+
+/* check on why site is automatically scrolling on page load */
