@@ -4,7 +4,7 @@
     text-shadow: 5px 5px 5px #63594b;
     margin: 10px;
 }
-
+/* full background image */
 html { 
     background: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2148&q=80) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -43,36 +43,34 @@ nav, ul {
 main {
     margin: 10px;
     padding: 10px;
-    /* display: table-caption; */
 }
 
 .info {
     background-color: #b9b5b3;
     border-style: inset;
     border-radius: 5px;
-    text-shadow: 2px 2px 2px #786d5e;
+    text-shadow: 2px 2px 2px #a1a09e;
     padding: inherit;
     margin: inherit;
 }
-
+/* styles img pre hover */
 .zoom-img {
+    max-width: 100%;
     width: 300px;
     height: 300px;
     overflow: hidden;
     border-style: inset;
     border-radius: 5px;
 }
-
+/* styles image transition */
 .zoom-img img {
     border-style: inset;
     border-radius: 5px;
     width: 100%;
     transition: width 0.25s ease;
 }
-
+/* enlarges img on hover */
 .zoom-img img:hover {
     width: 400px;
     color: #b9b5b3;
 }
-
-/* check on why site is automatically scrolling on page load */
