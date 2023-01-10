@@ -15,9 +15,9 @@ https://jannorth.github.io/Challenge2/
 To use this site, click on the links in the nav bar, which will automatically take you to the corresponding section of the page. There, you'll find information you can either read or click to explore other sites that are a part of the portfolio.
 
 
-![alt text](assets/images/screenshot.png)
-  
 ![alt text](assets/images/screenshot2.png)
+  
+![alt text](assets/images/screenshot.png)
 
 ## Credits
 
