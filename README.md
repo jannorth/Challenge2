@@ -9,12 +9,11 @@ The motivation for this project was to fulfill the need of displaying profession
 NA
 
 ## Usage
+
+https://jannorth.github.io/Challenge2/
   
 To use this site, click on the links in the nav bar, which will automatically take you to the corresponding section of the page. There, you'll find information you can either read or click to explore other sites that are a part of the portfolio.
-  
 
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
 ![alt text](assets/images/screenshot.png)
   
